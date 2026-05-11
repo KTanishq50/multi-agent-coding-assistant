@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+requests
+chromadb
+rank-bm25
+fastembed
+langgraph 
+langchain-ollama 
+langchain-core
+groq 
+langchain-groq 
+python-dotenv

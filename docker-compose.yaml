@@ -1,0 +1,23 @@
+services:
+
+  multi-agent-coder:
+
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+
+    container_name: multi-agent-coder
+
+    ports:
+      - "8000:8000"
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./bm25_indices:/app/bm25_indices
+      - ./workspace:/app/workspace
+      - ./knowledge:/app/knowledge
+
+    restart: unless-stopped
