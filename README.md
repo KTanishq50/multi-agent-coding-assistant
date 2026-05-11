@@ -1,6 +1,6 @@
 # Multi-Agent Coding Assistant
 
-(Scroll down for Screenshots)
+(Scroll down for Screenshots)<br>
 An advanced multi-agent AI coding assistant built with LangGraph, hybrid RAG, long-term memory, and self-correcting generation pipelines.
 
 This system ingests an entire project codebase, understands its structure semantically, retrieves relevant context intelligently, and orchestrates specialized AI agents to generate, explain, debug, review, and improve code with built-in verification and learning loops.
