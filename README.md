@@ -663,33 +663,19 @@ while maintaining architectural transparency and operational reliability.
 
 # Screenshots
 
-## Architecture Diagram
-
-> Add screenshot here
-
----
+## App
+<img width="1919" height="916" alt="Screenshot 2026-05-11 174428" src="https://github.com/user-attachments/assets/22a209d7-7228-44d3-8f40-a6c80043d4b0" />
+<img width="1919" height="909" alt="Screenshot 2026-05-11 174444" src="https://github.com/user-attachments/assets/f1fea112-2d52-458b-9aba-bac75d0531b5" />
+<img width="1919" height="912" alt="Screenshot 2026-05-11 174457" src="https://github.com/user-attachments/assets/25fb82ad-d825-4978-9491-4c97bd6bae0d" />
+<img width="1919" height="907" alt="Screenshot 2026-05-11 174515" src="https://github.com/user-attachments/assets/bd4ad90d-cb3c-4430-a350-cab4ad8b320d" />
+<img width="1919" height="912" alt="Screenshot 2026-05-11 174530" src="https://github.com/user-attachments/assets/a5e23076-9358-445d-9a01-a78187ee454f" />
+<img width="1668" height="951" alt="Screenshot 2026-05-11 174726" src="https://github.com/user-attachments/assets/a260ede7-8931-4e87-9353-47f94ad4ede7" />
 
 ## LangSmith Traces
+<img width="1908" height="895" alt="Screenshot 2026-05-11 175119" src="https://github.com/user-attachments/assets/6a912958-8cdb-47e9-a076-e845cbda4b6a" />
 
-> Add screenshot here
 
----
 
-## Retrieval Flow / RAG Confidence
-
-> Add screenshot here
-
----
-
-## Multi-Agent Execution Logs
-
-> Add screenshot here
-
----
-
-## API / UI Demo
-
-> Add screenshot here
 
 ---
 
@@ -735,11 +721,12 @@ multi_agent_coder/
 │   ├── agents/
 │   ├── services/
 │   ├── routes/
+│   └──main.py
 │ 
 │
 ├── knowledge/
 ├── docker-compose.yml
-├── Dockerfile
+├── docker/
 ├── requirements.txt
 └── README.md
 ```
